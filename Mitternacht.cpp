@@ -7,7 +7,7 @@ void menu();
 void menu()
 {
 	std:: string command =  "weiter";
-	while(command != "beenden")
+	while(command != "b")
 	{	
 	double a;
 	double b;
@@ -20,7 +20,7 @@ void menu()
 	std:: cout << "c = " << std::flush;
 	std:: cin >> c;
 	berechnen(a, b, c);
-	std:: cout << "Willst du das Programm beenden? Dann tippe: 'beenden'"<<std:: endl;
+	std:: cout << "Willst du das Programm beenden? Dann tippe: 'b'"<<std:: endl;
 	std:: cin >> command;
 	}
 }
